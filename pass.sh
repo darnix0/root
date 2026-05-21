@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Debe ejecutarse como root
-[[ $EUID -ne 0 ]] && echo "Ejecuta como root" && exit 1
+[[ $EUID -ne 0 ]] && echo "Ejecuta como root " && exit 1
 
 # Colores
 R='\033[1;31m'
